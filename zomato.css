@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta',sans-serif;
+}
+
+.nav{
+
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    width: 100%;
+    height: 400px;
+}
+
+.nav nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav nav .right{
+    display: flex;
+
+}
+
+nav p{
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+
+.nav .logo{
+    text-align: center;
+}
+
+.nav .logo img{
+    width: 25%;
+    margin-top: 66px;
+}
+
+.nav .inp{
+    text-align: center;
+}
+
+.nav .text{
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+    font-size: 20px;
+    font-family:  Helvetica, sans-serif;
+}
+
+.nav .inp input{
+    width: 600px;
+    height: 10px;
+    border: none;
+    outline: none;
+    padding: 22px;
+    font-size: 19px;
+    border-radius: 10px;
+    margin-top: 22px;
+    font-family: 'Mukta',sans-serif;
+}
+
+.crd:hover {
+    transform: scale(1.1,1.1);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card .crd img{
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.coll .txt{
+    margin-left: 35px ;
+    margin-top: 65px;
+    padding: 33px;
+}
+
+.coll .rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.rest img{
+    width: 24%;
+    height: 30%;
+    border-radius: 7px;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgba(246, 227, 204,0.5);
+}
+
+.app img{
+    width: 35%;
+}
+
+.app h1{
+    margin-top: 95px;
+    font-size: 44px;
+}
+
+.btn h1{
+    margin-left: 44px;
+    margin-top: 44px;
+    padding: 33px;
+}
+
+.btn button{
+    width: 900px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 11px;
+    margin-left: 350px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgba(246, 246, 242,0.5);
+    margin-top: 100px;
+    padding: 44px;
+}
+
+.footer .list p{
+    margin-top: 10px;
+    color: gray;
+    font-family: 'Mukta',sans-serif;
+}
+
